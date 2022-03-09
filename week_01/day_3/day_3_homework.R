@@ -57,6 +57,5 @@ movies_imputed
 
 ### EXTENSION 2 ###
 
-across()
 
 
