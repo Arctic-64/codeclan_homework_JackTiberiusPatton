@@ -55,6 +55,7 @@ Question_6 = function(vec1, vec2){
 Question_6(1:3, 1:3)
 Question_6(1:3, 3:1)
 Question_6(1:3, 2:4)
+Question_6(1:3, 1:4)
 
 
 Q7_matrix = matrix(nrow = 12, ncol = 12)
