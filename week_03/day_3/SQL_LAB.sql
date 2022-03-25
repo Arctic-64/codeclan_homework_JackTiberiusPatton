@@ -66,7 +66,7 @@ avg(salary),
 country
 from employees
 group by country
-having count(id) >30
+having count(id) >30 
 order by avg(salary) desc;
 
 --q9

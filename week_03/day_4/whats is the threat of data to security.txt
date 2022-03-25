@@ -1,0 +1,20 @@
+weakest point in any system is human
+
+rockyou password list
+humans are typicaly more simmilar than they are different which any hacker will tell you is a weakness
+chaos can be predictable.
+
+cleartext, hashing algorithm, rainbow tables
+
+pass the hash exploit
+
+data is the reason that a hacker with infinite time has a 100% chance of compromiseing a system
+
+mask attacks, data shows probability
+
+barnum effect
+
+methods of cracking without data, generate data, brute force
+
+cookies track EVERYTHING. even you screen size which can narrow down your specific computer
+
