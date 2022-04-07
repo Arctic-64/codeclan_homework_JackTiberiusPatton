@@ -1,0 +1,22 @@
+library(tidyverse)
+library(devtools)
+library(CodeClanData)
+library(shiny)
+
+ui <- fluidPage(
+  radioButtons("handed_input",
+               "handness",
+               choices = unique(CodeClanData::students_big$handed),
+               inline = TRUE),
+  tableOutput("table_output")
+)
+
+server <- function (input, output, session){
+  output$table_output <- renderTable({
+    CodeClanData::students_big %>%
+      filter(handed == input$handed_input)
+  })
+}
+
+
+shinyApp(ui, server)
