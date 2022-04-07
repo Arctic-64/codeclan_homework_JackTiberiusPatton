@@ -1,0 +1,97 @@
+"students" "degree" "group" "essay1" "poster" "presentation" "essay2"
+"1" "Werkele, Marissa" "Genetics" "Tut1" 51 45 14 52
+"2" "el-Guler, Mundhir" "Genetics" "Tut1" 34 40 54 79
+"3" "Doughty, Grant" "Genetics" "Tut1" 53 74 59 51
+"4" "Otano, Rafael" "Genetics" "Tut1" 69 64 84 72
+"5" "Cannick, Raven" "Genetics" "Tut1" 66 61 33 59
+"6" "Dilley, Janice" "Genetics" "Tut1" 76 73 63 59
+"7" "el-Sayed, Safaaa" "Genetics" "Tut1" 47 82 49 54
+"8" "al-Majid, Shaaheen" "Genetics" "Tut1" 77 69 80 71
+"9" "Lopez, Melissa" "Genetics" "Tut1" 43 68 85 55
+"10" "al-Jamal, Muneefa" "Genetics" "Tut1" 42 58 68 62
+"11" "Arroyo Ramirez, Katrina" "Genetics" "Tut1" 47 43 69 44
+"12" "Gutierrez, Jorge" "Genetics" "Tut1" 99 75 61 63
+"13" "Vang, Huy" "Genetics" "Tut2" 53 66 78 57
+"14" "Lee, Megan" "Genetics" "Tut2" 58 74 52 72
+"15" "Thomason, Jack" "Genetics" "Tut2" 59 72 90 66
+"16" "Craig, Michael" "Genetics" "Tut2" 64 55 74 76
+"17" "Terry, Eric" "Genetics" "Tut2" 76 73 100 64
+"18" "Hanks, Erin" "Genetics" "Tut2" 68 38 71 57
+"19" "Chuong, Faran" "Genetics" "Tut2" 22 68 60 62
+"20" "Coen, Jessica" "Genetics" "Tut2" 49 83 74 76
+"21" "el-Akhter, Hadiyya" "Genetics" "Tut2" 62 66 85 70
+"22" "el-Rehman, Suhaa" "Genetics" "Tut2" 65 83 100 71
+"23" "Flores, Saul" "Genetics" "Tut2" 84 73 35 71
+"24" "Jarrett, Larissa" "Genetics" "Tut2" 22 55 23 69
+"25" "Muppala, My" "Biological Sciences" "Tut3" 60 82 45 79
+"26" "Wilson, Cristian" "Biological Sciences" "Tut3" 64 67 76 67
+"27" "Melton, James" "Biological Sciences" "Tut3" 96 57 68 73
+"28" "Xiong, Chance" "Biological Sciences" "Tut3" 45 63 99 70
+"29" "Rojas, Alan" "Biological Sciences" "Tut3" 95 56 45 71
+"30" "Zhu, Maninder" "Biological Sciences" "Tut3" 54 61 92 67
+"31" "Sendejas, Dean" "Biological Sciences" "Tut3" 78 50 55 63
+"32" "Vasquez, Everett" "Biological Sciences" "Tut3" 83 67 95 57
+"33" "Mcmillion-Colbert, Timket" "Biological Sciences" "Tut3" 56 45 27 83
+"34" "el-Ghazi, Zaaid" "Biological Sciences" "Tut3" 89 69 21 51
+"35" "Lopez, Angelina" "Biological Sciences" "Tut3" 58 51 28 63
+"36" "al-Jaber, Yoosuf" "Biological Sciences" "Tut3" 36 73 84 72
+"37" "Bonner, Devon" "Biological Sciences" "Tut3" 59 57 95 62
+"38" "Delong, Robert" "Biological Sciences" "Tut4" 76 66 43 72
+"39" "Wallace, Shannon" "Biological Sciences" "Tut4" 47 73 100 57
+"40" "Cheng, Kalita" "Biological Sciences" "Tut4" 58 70 65 61
+"41" "Valdez, Daniel" "Biological Sciences" "Tut4" 62 53 66 46
+"42" "Mobley, Robert" "Biological Sciences" "Tut4" 43 68 43 53
+"43" "Maes, Jasmine" "Biological Sciences" "Tut4" 59 65 68 56
+"44" "Crippen, Wade" "Biological Sciences" "Tut4" 49 49 57 50
+"45" "Rodriquez, Frances" "Biological Sciences" "Tut4" 54 63 59 50
+"46" "Wilcoxon, Henry" "Biological Sciences" "Tut4" 47 55 16 60
+"47" "Auyeung, Jason" "Biological Sciences" "Tut4" 55 92 86 81
+"48" "al-Kaba, Sumayya" "Biological Sciences" "Tut4" 49 75 59 60
+"49" "Morin, Matthew" "Biological Sciences" "Tut4" 59 55 74 78
+"50" "Patel, Shannon" "Biological Sciences" "Tut4" 55 66 17 81
+"51" "Blackcrow, Kelly" "Biochemistry" "Tut5" 82 67 24 66
+"52" "Turner, Alexis" "Biochemistry" "Tut5" 86 74 74 76
+"53" "Moya, Joe" "Biochemistry" "Tut5" 42 70 39 65
+"54" "el-Bacchus, Adham" "Biochemistry" "Tut5" 75 62 63 71
+"55" "Martinez, Jorge" "Biochemistry" "Tut5" 72 68 46 51
+"56" "Nickle, Mariah" "Biochemistry" "Tut5" 46 53 31 72
+"57" "al-Fahs, Aslam" "Biochemistry" "Tut5" 65 77 29 57
+"58" "Hughes, Kristoffer" "Biochemistry" "Tut5" 51 33 20 67
+"59" "Means, Daniel" "Biochemistry" "Tut5" 80 43 76 65
+"60" "Gstalder, Long" "Biochemistry" "Tut5" 71 87 66 77
+"61" "Muniz, Brittany" "Biochemistry" "Tut5" 84 47 32 72
+"62" "Rodriguez, Rolando" "Biochemistry" "Tut5" 33 59 88 62
+"63" "Lee, Surabhi" "Biochemistry" "Tut6" 83 66 63 48
+"64" "Johnson, Malachi" "Biochemistry" "Tut6" 43 49 60 75
+"65" "Romero, Teresa" "Biochemistry" "Tut6" 73 36 52 79
+"66" "el-Ishak, Ubaida" "Biochemistry" "Tut6" 60 60 27 77
+"67" "al-Ayub, Asmar" "Biochemistry" "Tut6" 76 49 43 64
+"68" "Tirona, Thanh" "Biochemistry" "Tut6" 70 54 53 80
+"69" "Palmer, Andrea" "Biochemistry" "Tut6" 57 38 52 71
+"70" "Black, Draven" "Biochemistry" "Tut6" 100 82 56 63
+"71" "Sais, Angel" "Biochemistry" "Tut6" 88 65 67 82
+"72" "Herrera, Summer" "Biochemistry" "Tut6" 54 50 96 61
+"73" "Ziebis, Tre" "Biochemistry" "Tut6" 75 56 72 86
+"74" "el-Ben, Jaabir" "Marine Biology" "Tut7" 76 53 57 67
+"75" "Tarango, Gabriel" "Marine Biology" "Tut7" 58 72 59 75
+"76" "el-Salaam, Qisma" "Marine Biology" "Tut7" 68 78 36 91
+"77" "Proulx, Taylor" "Marine Biology" "Tut7" 97 67 38 59
+"78" "Bergum-Holmes, Dustin" "Marine Biology" "Tut7" 80 50 41 66
+"79" "Jordan, Daniel" "Marine Biology" "Tut7" 35 66 100 52
+"80" "al-Salik, Warda" "Marine Biology" "Tut7" 74 55 99 75
+"81" "Yoshimura, Antionette" "Marine Biology" "Tut7" 42 52 100 78
+"82" "al-Sayed, Mamoon" "Marine Biology" "Tut7" 65 59 85 59
+"83" "Root, Jonni Lynn" "Marine Biology" "Tut7" 72 58 42 88
+"84" "al-Mina, Maariya" "Marine Biology" "Tut7" 89 60 88 68
+"85" "Butler, Kaylee" "Marine Biology" "Tut7" 59 63 54 50
+"86" "Kim, Brandon" "Marine Biology" "Tut8" 82 77 10 91
+"87" "Sher, Ryan" "Marine Biology" "Tut8" 51 52 100 74
+"88" "Martinez, Ammanda" "Marine Biology" "Tut8" 76 50 79 70
+"89" "Stiefel, Timothy" "Marine Biology" "Tut8" 64 87 57 65
+"90" "Franklin, London" "Marine Biology" "Tut8" 39 65 98 86
+"91" "Tindle, Ian" "Marine Biology" "Tut8" 38 74 87 55
+"92" "Roueche, Nickolaus" "Marine Biology" "Tut8" 66 85 74 65
+"93" "Craig, Crystal" "Marine Biology" "Tut8" 53 77 71 83
+"94" "Jewett-Garcia, Karisma" "Marine Biology" "Tut8" 58 75 99 72
+"95" "el-Sham, Ummu Kulthoom" "Marine Biology" "Tut8" 56 56 62 59
+"96" "D'Estree, Austin" "Marine Biology" "Tut8" 86 82 43 84
