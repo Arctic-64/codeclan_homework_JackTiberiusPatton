@@ -1,0 +1,17 @@
+"0","titanic = read_csv(here(""titanic.csv""))"
+"1",""
+"1","indexing titanic.csv [================================================================================================================] ?, eta:  0s"
+"1","                                                                                                                                                   "
+"1",""
+"2","[1mRows: [22m[34m2207[39m [1mColumns: [22m[34m9[39m"
+"2","[36m--[39m [1mColumn specification[22m [36m---------------------------------------------------------------------------------------------------------------------------[39m
+[1mDelimiter:[22m "",""
+[31mchr[39m (5): gender, class, embarked, country, survived
+[32mdbl[39m (4): age, fare, sibsp, parch"
+"2","
+[36mi[39m Use `spec()` to retrieve the full column specification for this data.
+[36mi[39m Specify the column types or set `show_col_types = FALSE` to quiet this message."
+"0","titanic %>%"
+"0","  mutate(crew = if_else(class %in% c(""1st"", ""2nd"", ""3rd""), FALSE, TRUE)) -> titanic"
+"0","titan_crew = filter(titanic, crew == TRUE)"
+"0","titan_civilian = filter(titanic, crew == FALSE)"
