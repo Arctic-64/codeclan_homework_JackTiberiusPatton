@@ -1,0 +1,50 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+
+```{r}
+library(prob)
+library(gtools)
+library(tidyverse)
+library(here)
+library(e1071)
+library(janitor)
+```
+```{r}
+items <- clean_names(read_csv(here("20190928-items.csv")))
+items
+```
+
+```{r}
+items %>%
+  group_by(brand) %>%
+  summarise(n = n()) %>%
+  arrange(n) %>%
+  tail(1)
+  
+```
+
+```{r}
+samsung <- filter(items, brand == "Samsung")
+samsung %>%
+    summarise(
+    num = n(),
+    mean = mean(rating),
+    sd = sd(rating)
+  ) -> samsung_stats
+
+ggplot(samsung, aes(rating))  + 
+  geom_histogram(colour = "black", binwidth = 0.5) + 
+  stat_function(fun = dnorm,
+                                 args = list(
+                                   mean = samsung_stats$mean,
+                                   sd = samsung_stats$sd
+                                 ),
+                                 col = "red"
+                                 )
+
+```
+
+

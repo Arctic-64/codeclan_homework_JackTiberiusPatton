@@ -1,0 +1,8 @@
+"0","```r
+library(prob)
+library(gtools)
+library(tidyverse)
+library(here)
+```"
+"1","package ‘here’ was built under R version 4.1.3here() starts at D:/UNIVERSITY/CodeClan/codeclan_homework_JackTiberiusPatton/week_06/day_1
+"

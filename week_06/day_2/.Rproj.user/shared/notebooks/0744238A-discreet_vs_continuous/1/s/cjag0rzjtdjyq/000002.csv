@@ -1,0 +1,17 @@
+"0","```r
+
+dice <- tibble(x=1:6,
+               f_x = replicate(6, 1/6)) %>%
+  mutate(F_x = cumsum(f_x))
+
+dice %>%
+  ggplot(aes(x=x, y=F_x)) +
+  geom_step() +
+  xlab(\"number rolled on die\") +
+  ylab(\"probability\") +
+  scale_x_continuous(breaks = 1:6) +
+  scale_y_continuous(breaks = seq(0,1,0.1))+
+  ylim(0,1)
+```"
+"1","Scale for 'y' is already present. Adding another scale for 'y', which will replace the existing scale.
+"

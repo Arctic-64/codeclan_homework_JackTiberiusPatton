@@ -1,0 +1,58 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+library(prob)
+library(gtools)
+library(tidyverse)
+library(here)
+```
+
+```{r}
+titanic = read_csv(here("titanic.csv"))
+titanic %>%
+  mutate(crew = if_else(class %in% c("1st", "2nd", "3rd"), FALSE, TRUE)) -> titanic
+
+titan_crew = filter(titanic, crew == TRUE)
+titan_civilian = filter(titanic, crew == FALSE)
+```
+
+```{r}
+crew_surv_prob = nrow(filter(titan_crew, survived == "yes"))/nrow(titan_crew)
+crew_surv_prob
+civ_surv_prob = nrow(filter(titan_civilian, survived == "yes"))/nrow(titan_civilian)
+civ_surv_prob
+```
+civilians as a whole group had a higher probability of survival than crew
+this does not take into account different classes of civilans or crew
+it stands to reason the survival probabilities for different classes and different jobs will have been significantly different.
+
+```{r}
+# Q1
+5/6
+
+# Q2
+nrow(rolldie(3))
+
+# Q3
+Q3 = mutate(rolldie(4), total_5_6_7 = X1+X2+X3+X4)
+total_outcomes = nrow(Q3)
+Q3F = filter(Q3, total_5_6_7 %in% c(5,6,7))
+filtered_outcomes = nrow(Q3F)
+Q3_prob = filtered_outcomes/total_outcomes
+# part 1
+total_outcomes
+# part 2
+Q3_prob
+# part 3
+# we assume that the the order of dice count as a different event even if the numbers are the same and functionaly identical
+
+# Q4
+2/nrow(permutations(5,5))
+# the only possible correct states are ascending and descending.
+# however a programatic method could be deployed by running the sort() function and checking to see if the resulting vector matches the row.
+# due to time and patience, im going to just plug the 2 in
+```
+

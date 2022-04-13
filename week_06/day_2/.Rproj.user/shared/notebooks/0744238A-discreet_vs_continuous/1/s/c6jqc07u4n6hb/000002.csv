@@ -1,0 +1,29 @@
+"0","```r
+
+  
+  jobs <- read_csv(\"D:/UNIVERSITY/CodeClan/de13_classnotes/week_06/day_2/2_distributions_measures_of_spread/data/TyrellCorpJobs.csv\")
+```"
+"1","New names:
+* `` -> ...1
+"
+"1","Rows: 175 Columns: 3
+-- Column specification -----------------------------------------------------------------------------------------------------------------------------------------------------
+Delimiter: \",\"
+chr (1): Position
+dbl (2): ...1, Salary
+
+i Use `spec()` to retrieve the full column specification for this data.
+i Specify the column types or set `show_col_types = FALSE` to quiet this message.
+"
+"0","```r
+jobs <- janitor::clean_names(jobs)
+
+account_salary_stats <- jobs %>% 
+  filter(position == \"Accounting\") %>% 
+  summarise(
+    num = n(),
+    mean = mean(salary),
+    sd = sd(salary)
+  )
+account_salary_stats
+```"

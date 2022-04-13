@@ -1,0 +1,21 @@
+"0","```r
+
+jobs %>%
+  filter(position == \"Accounting\") %>%
+  ggplot(aes(x = salary)) +
+    geom_histogram(aes(y = ..density..), col = \"white\",
+                   stat_function(fun = dnorm,
+                                 args = list(
+                                   mean = account_salary_stats$mean,
+                                   sd = account_salary_stats$sd
+                                 ),
+                                 col = \"red\"
+                                 ))
+```"
+"1","Error in `fortify()`:
+! `data` must be a data frame, or other object coercible by `fortify()`, not an S3 object with class LayerInstance/Layer/ggproto/gg.
+Backtrace:
+ 1. ggplot2::geom_histogram(...)
+ 2. ggplot2::layer(...)
+ 4. ggplot2:::fortify.default(data)
+"

@@ -1,0 +1,4 @@
+"0","```r
+management_scaled <- jobs %>%
+  mutate
+```"
