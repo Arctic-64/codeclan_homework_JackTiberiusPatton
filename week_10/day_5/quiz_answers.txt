@@ -1,0 +1,26 @@
+dependant on the reliability of the data.
+probably more likely to overfit as certain schools, postcodes and wealthy families tend to do better
+however this is a corrolation and not a causal relationship.
+
+use 33,559 as a lower score fits better (assumeing test data)
+
+use the first one, ajusted R^2 is higher
+
+underfitting, the test and train scores are very simmilar and quite high.
+
+k fold validation works by splitting the data into equal chunks
+then useing all data as testing and training with one test set per fold.
+the number of folds is the number of chunks
+
+a validation set is sometimes used interchangably with a test set.
+however a validation set is used in training to gauge a programs status.
+this cannot be considered a true test set 
+the vlaidation data (although partial) is being used to influence the modee
+
+backward selection works by starting a model with all avaiable parameters
+then systematicaly removeing the ones with least statistical significance
+
+best subset can be considered a brute force method for finding the best model
+all possible combinations for each number of patameters are calculated.
+the best combinations for each number are selected
+and from theis pool, the best overall model is selected.
