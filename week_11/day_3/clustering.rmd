@@ -1,0 +1,52 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+```{r}
+library(tidyverse)
+library(factoextra)
+library(janitor)
+library(broom)
+
+
+cust <- read.csv("D:/UNIVERSITY/CodeClan/de13_classnotes/week_11/day_3/5_clustering_homework/data/mall_customers.csv")
+
+cust <- clean_names(cust) %>%
+  select(annual_income_k, spending_score_1_100)
+```
+```{r}
+ggplot(cust) +
+  aes(x = annual_income_k, y = spending_score_1_100) +
+  geom_point()
+```
+
+```{r}
+
+kluster <- tibble(k = 2:20) %>%
+  mutate(
+    kclust = map(k, ~ kmeans(cust, .x, nstart = 25)), 
+    tidied = map(kclust, tidy),
+    glanced = map(kclust, glance),
+    augmented = map(kclust, augment, cust)
+  )
+
+kluster
+```
+
+```{r}
+fviz_nbclust(cust, kmeans, method = "silhouette", nstart = 25)
+```
+
+```{r}
+kluster %>% 
+  unnest(cols = c(augmented)) %>%
+  filter(k == 5) %>%
+  ggplot() +
+  aes(x = annual_income_k, y = spending_score_1_100) +
+  geom_point(aes(color = .cluster))
+  
+```
+
+its a good fit, the alternative is two bisecting lines running perpendicular to the axis
+
+high income and high spending customers appear to be a defininte group that can be targeted for marketing. gather data on these people.
